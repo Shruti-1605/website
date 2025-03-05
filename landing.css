@@ -1,0 +1,508 @@
+
+.fnz{
+  background: linear-gradient(rgba(0, 0, 0, 0.25) , rgba(0, 0, 0, 0.25)	) ,url("images/hero-img.jpg");
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1000;
+  
+  
+ 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .position-relative {
+    /* position: relative; */
+    position: fixed;
+    z-index: 1000 !important;
+  }
+  .navbar{
+    padding-left: 5%;
+  }
+  
+  .link{
+    font-family: Poppins, sans-serif;
+    font-size: 13px;
+    font-weight: 400; 
+  }
+  .navbar-brand {
+    padding-left: 20%; 
+  }
+  .navbar-nav{
+    font-family:Poppins, sans-serif; 
+    font-size: 12px;
+  }
+  .navbar-nav .nav-item .nav-link.active  {
+    color: rgb(176, 137, 103) !important;
+  }
+  .navbar-nav .nav-item .nav-link:hover {
+    color: rgb(176, 137, 103) !important;
+  }
+  
+    div .nav-link.active {
+      color: rgb(176, 137, 103) !important;
+    }
+  
+    .image-container img {
+        object-fit: cover; 
+        object-position: center; 
+        width: 100%; 
+        height: 750px; 
+        transition: transform 0.2s ease-in-out; 
+        position:fixed;
+      }
+      
+      
+      .bg-color {
+        background-color: whitesmoke;
+      }
+      .text-color {
+        color: #000000A6;
+      }
+      .text-color:hover {
+        color: rgb(176, 137, 103);
+      }
+      
+      @media (max-width: 700px) {
+        .image-container img:hover {
+            transform: scale(1.0); 
+        }
+      }
+      .center-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white; 
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+        width: 400px; 
+        height: 500%;
+      }
+      
+      
+      .center-box h1 {
+        margin: 0;
+        font-size: 2rem;
+      }
+      
+      .h{
+        height: 550px;
+      }
+
+  .join{
+        font-family: Newsreader, serif;
+        font-weight: 400;
+        font-size: 40px;
+  }
+
+  
+
+   .clr {
+    background-color: rgb(176,137,103); 
+    color: white;
+    border-radius: 5%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    height: 7vh;
+    width: 25%;
+   border: none;
+   margin-top: auto;
+   margin-top: 32px;
+   font-family: Poppins, sans-serif;
+   font-size: 13px;
+   line-height: 13px;
+   font-weight: 400;
+  }
+
+  .colour {
+    background-color: rgb(176,137,103); 
+    color: white;
+    border-radius: 5%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    height: 7vh;
+    width: 15%;
+   border: none;
+   margin-top: auto;
+   margin-top: 32%;
+   font-family: Poppins, sans-serif;
+   font-size: 13px;
+   line-height: 13px;
+   font-weight: 400;
+   
+  }
+
+
+
+
+
+
+  .food4{
+    font-family:Newsreader, serif ;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: 400;
+  }
+
+
+
+
+
+
+
+
+
+
+ 
+  
+
+
+  
+  
+
+   .space{
+    border-right:  2px solid rgb(253, 248, 244);
+ }
+
+ .lst{
+  font-family: Newsreader, serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height:24px ;
+  letter-spacing: 2px;
+ }
+
+ .latest{
+  font-family: Poppins, sans-serif;
+  color:  rgb(166, 127, 94);
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 2px;
+  
+}
+
+.news{
+  font-family: Newsreader, serif;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  font-size: 24px;
+  
+}
+
+.latest1{
+  font-family: Poppins, sans-serif ;
+  color: rgba(0, 0, 0, 0.65);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+ }
+
+
+ .font{
+  font-family: Newsreader, serif;
+}
+
+
+.Bestrestaurant{
+  font-family: Poppins, sans-serif;
+  color:white;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 2px;
+}
+
+.restaurant{
+  font-family:Newsreader, serif;
+  font-size: 35px;
+  font-weight: 400;
+  color:white;
+ 
+ }
+
+ .bg{
+  position: absolute;
+            bottom: -130px; 
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 200px;
+            font-weight: bold;
+            font-family: 'Brush Script MT', cursive; 
+            color: rgba(255, 255, 255, 0.15); 
+            z-index: 1;
+            user-select: none;
+            white-space: nowrap;
+}
+
+.subscribe{
+  margin-top: 10%;
+  
+}
+
+.poppins{
+  font-family: Poppins, sans-serif;
+}
+
+.review1{
+  font-family:Newsreader, serif ;
+  font-weight: 400;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+  line-height: 26px;
+ 
+}
+
+.review{
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: rgb(0, 0, 0);
+  line-height: 16px;
+  letter-spacing: 2px;
+}
+
+
+.feature{
+  text-align: center;
+}
+
+.about{
+  font-family:Newsreader, serif ;
+  font-size: 13px;
+  font-weight: 400;
+  color:rgb(255, 255, 255);
+}
+
+.aboutme{
+  font-family:Newsreader, serif ;
+  color:#B08967 ;
+  font-weight: 400;
+  font-size: 38px;
+  margin-left: 13%;
+  margin-right: 13%;
+}
+
+.lastSection{
+  background-image: url("images/bg-01.jpg");
+  background-position: center;
+  height: 50vh;
+  width: 98.8vw;
+  background-size: cover;
+  background-attachment: fixed;
+  
+ }
+
+ .are{
+  font-family: Newsreader, serif;
+}
+
+.get{
+  height: 19%;
+  width: 12%;
+  border:none;
+  color: white;
+  background-color:rgb(176,137,103) ;
+}
+
+
+
+
+
+
+
+  .image-container {
+    overflow: hidden; 
+    
+  }
+  
+  .card {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.5s ease-in-out, opacity 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.1); 
+    opacity: 0.8; 
+  }
+  
+  .bg1 { background-image: url("images/bg-4.jpg"); }
+  .bg2 { background-image: url("images/bg-5.jpg"); }
+  .bg3 { background-image: url("images/bg-3.jpg"); }
+  
+
+
+
+ 
+
+.card {
+  border: none;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  width: 90%; 
+  height: 32rem;
+  border-radius: 0;
+  margin: 5px; 
+}
+
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: inherit;
+  background-position: inherit;
+  background-repeat: inherit;
+  transition: transform 0.5s ease-in-out, opacity 0.3s ease-in-out;
+  z-index: 1;
+ 
+}
+
+.bg1::before { background-image: url("images/blog-004-1 (1).jpg"); }
+.bg2::before { background-image: url("images/blog-005-1.jpg"); }
+.bg3::before { background-image: url("images/blog-006-1 (1).jpg"); }
+
+.card:hover::before {
+  transform: scale(1.1); 
+ 
+}
+
+
+.card .d-flex {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+
+@media (max-width: 992px) {
+  .card {
+    height: 28rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    height: 24rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    height: 20rem;
+  }
+}
+
+
+
+.star {
+  font-size: 25px;  
+  color:  goldenrod !important;  
+  
+}
+.content{
+  
+  background-color: #b98b65;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  position: relative;
+  overflow: hidden;
+  width: 80%; 
+  margin: auto;
+  height: 450px;
+}
+
+.taste{
+  font-family: Newsreader, serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  line-height: 31px;
+}
+
+.places{
+  font-family: Newsreader, serif;
+  font-size: 19px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  line-height: 23px;
+}
+
+.dolor{
+  font-family: Poppins, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.65);
+  line-height: 24px;
+}
+.read{
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.65);
+  line-height: 15px;
+}
+
+
+
+.bottom{
+  top: 50%;
+}
+
+
+
+
+
+
+
+.landing-box {
+  width: 98%; 
+  max-width: 650px; 
+  height: 60%; 
+  padding: 25px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ 
+}
+
+
+@media (min-width: 768px) {
+  .landing-box {
+    width: 65%; 
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .landing-box {
+    width: 47%; 
+  }
+}
+
+
+
+
+
+
+
+
+
