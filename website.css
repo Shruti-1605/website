@@ -100,9 +100,15 @@
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  position: relative; 
+  /* filter: brightness(60%); */
 }
+.opacity-apply{
+  background-color: rgba(15, 15, 15, 0.543);
+  width: 100vw;
+  min-height: 70vh;
+  padding: 0 12%;
 
+}
 .overlay {
   position: absolute;
   width: 100%;
@@ -131,34 +137,37 @@
   background-size: cover;
   background-attachment: fixed;
  
-  
+
 }
 
 
   .fixsection {
     position: relative;
-    width: 100vw;  /* Full viewport width */
+    width: 99.3vw;  /* Full viewport width */
     height: 35vh; /* Full viewport height */
     background: url('images/hero-img.jpg') center/cover no-repeat;
     filter: brightness(60%); /* 50% darkness */
 
     
   }
+
   
 
 
 
-.about{
+/* .about{
   font-family:Newsreader, serif ;
   font-size: 13px;
   font-weight: 400;
   color:rgb(255, 255, 255);
-  margin-right: 45%;
  
     
-}
+} */
 
-  
+.changestyle{
+  font-family:Newsreader, serif ;
+  color:rgb(255, 255, 255);
+}
   
 
 
@@ -191,10 +200,11 @@
   padding: 80px 20px;
   position: relative;
   overflow: hidden;
-  width: 80%;
-  margin: 0 auto; /* Center karne ke liye */
+   width: 80%; 
+  margin: 0 auto; 
   height: 450px;
-  top: 60%; /* Top par le jaane ke liye */
+   padding-top: 0%;
+  
 }
 
 .bg{
@@ -643,6 +653,7 @@
   overflow: hidden;
   width: 70%;
   margin: auto;
+  
  
 }
 
@@ -716,8 +727,9 @@
   border: none;
   font-size: 1.2rem;
   cursor: pointer !important;
-  transition: 0.3s ease-in-out;
-  z-index: 12;
+  transition: 0.5s ease-in-out;
+  z-index: 19;
+  width:25%;
 }
 
 
@@ -853,6 +865,23 @@ color:rgba(0, 0, 0, 0.65) ;
   margin-top: 2%;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
 
 
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
