@@ -377,9 +377,9 @@
  
 }
 
-.bg1::before { background-image: url("images/blog-004-1 (1).jpg"); }
-.bg2::before { background-image: url("images/blog-005-1.jpg"); }
-.bg3::before { background-image: url("images/blog-006-1 (1).jpg"); }
+.bg1::before { background-image: url("/blog-004-1 (1).jpg"); }
+.bg2::before { background-image: url("/blog-005-1.jpg"); }
+.bg3::before { background-image: url("/blog-006-1 (1).jpg"); }
 
 .card:hover::before {
   transform: scale(1.1); 
